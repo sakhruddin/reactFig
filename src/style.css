@@ -1,0 +1,120 @@
+body {
+  display: flex;
+  /* margin: auto; */
+  justify-content: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.header {
+  display: flex;
+}
+
+.header div  {
+  display: flex;
+  align-items: center;
+  width: 199px;
+  height: 82px;
+  background-color: rgba(240, 14, 14, 0.1);
+}
+
+.header div span {
+  
+  font-size: 39px;
+  line-height: 47px;
+  color: #F27C0F;
+}
+
+.header .text {
+  justify-content: right;
+  width: 568px;
+  height: 82px;
+  background-color: rgba(0, 164, 56, 0.09);
+}
+
+.header .text p {
+  padding: 10px;
+  color: blue;
+  font-size: 20px;
+
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  width: 585px;
+  height: 318px;
+  color: #F27C0F;
+  background-color:  rgba(23, 10, 10, 0.09);
+  margin: auto;
+}
+
+.main {
+  background-color: rgba(210, 0, 164, 0.1);
+  padding-top: 39px;
+  padding-bottom: 12px;
+  height: 670px;
+}
+.main span {
+  font-size: 270px;
+}
+
+.button {
+  background-color: rgba(21, 101, 147, 0.1);
+  width: 742px;
+  height: 116px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.button button {
+  width: 190px;
+  height: 50px;
+  color: aliceblue;
+  font-size: 20px;
+  border: none;
+}
+
+.one {
+  background-color: #156593;
+}
+
+.two {
+  background-color: #F27C0F;
+}
+
+.three {
+  background-color: gray
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoFooter {
+  display: flex;
+  align-items: center;
+}
+
+.logoFooter img{
+  width: 28px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0px;
+
+
+}
+
+.footer ul li {
+  display: flex;
+  padding-left: 30px;
+  
+  
+}
